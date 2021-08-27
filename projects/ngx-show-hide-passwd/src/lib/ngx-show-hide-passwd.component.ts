@@ -3,11 +3,11 @@ import { IonInput } from '@ionic/angular';
 
 
 @Component({
-  selector: 'ngx-show-hide-password',
-  templateUrl: './ngx-show-hide-password.component.html',
-  styleUrls: ['./ngx-show-hide-password.component.scss']
+  selector: 'ngx-show-hide-passwd',
+  templateUrl: './ngx-show-hide-passwd.component.html',
+  styleUrls: ['./ngx-show-hide-passwd.component.scss']
 })
-export class NgxShowHidePasswordComponent {
+export class NgxShowHidePasswdComponent {
   @ContentChild(IonInput) private ionInput?: IonInput;
 
   private _showPassword = false;

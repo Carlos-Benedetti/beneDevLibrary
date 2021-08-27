@@ -6,38 +6,38 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ngx-long-press": {
+    "ngx-ionic-long-press": {
       "projectType": "library",
-      "root": "projects/ngx-long-press",
-      "sourceRoot": "projects/ngx-long-press/src",
+      "root": "projects/ngx-ionic-long-press",
+      "sourceRoot": "projects/ngx-ionic-long-press/src",
       "prefix": "beneDev",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/ngx-long-press/tsconfig.lib.json",
-            "project": "projects/ngx-long-press/ng-package.json"
+            "tsConfig": "projects/ngx-ionic-long-press/tsconfig.lib.json",
+            "project": "projects/ngx-ionic-long-press/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/ngx-long-press/tsconfig.lib.prod.json"
+              "tsConfig": "projects/ngx-ionic-long-press/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ngx-long-press/src/test.ts",
-            "tsConfig": "projects/ngx-long-press/tsconfig.spec.json",
-            "karmaConfig": "projects/ngx-long-press/karma.conf.js"
+            "main": "projects/ngx-ionic-long-press/src/test.ts",
+            "tsConfig": "projects/ngx-ionic-long-press/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-ionic-long-press/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/ngx-long-press/tsconfig.lib.json",
-              "projects/ngx-long-press/tsconfig.spec.json"
+              "projects/ngx-ionic-long-press/tsconfig.lib.json",
+              "projects/ngx-ionic-long-press/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -46,23 +46,23 @@
         }
       }
     },
-    "ngx-show-hide-password": {
+    "ngx-show-hide-passwd": {
       "projectType": "library",
-      "root": "projects/ngx-show-hide-password",
-      "sourceRoot": "projects/ngx-show-hide-password/src",
+      "root": "projects/ngx-show-hide-passwd",
+      "sourceRoot": "projects/ngx-show-hide-passwd/src",
       "prefix": "beneDev",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/ngx-show-hide-password/ng-package.json"
+            "project": "projects/ngx-show-hide-passwd/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/ngx-show-hide-password/tsconfig.lib.prod.json"
+              "tsConfig": "projects/ngx-show-hide-passwd/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/ngx-show-hide-password/tsconfig.lib.json"
+              "tsConfig": "projects/ngx-show-hide-passwd/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -70,13 +70,44 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ngx-show-hide-password/src/test.ts",
-            "tsConfig": "projects/ngx-show-hide-password/tsconfig.spec.json",
-            "karmaConfig": "projects/ngx-show-hide-password/karma.conf.js"
+            "main": "projects/ngx-show-hide-passwd/src/test.ts",
+            "tsConfig": "projects/ngx-show-hide-passwd/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-show-hide-passwd/karma.conf.js"
+          }
+        }
+      }
+    },
+    "ngx-typed-form-builder": {
+      "projectType": "library",
+      "root": "projects/ngx-typed-form-builder",
+      "sourceRoot": "projects/ngx-typed-form-builder/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ngx-typed-form-builder/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-typed-form-builder/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ngx-typed-form-builder/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngx-typed-form-builder/src/test.ts",
+            "tsConfig": "projects/ngx-typed-form-builder/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-typed-form-builder/karma.conf.js"
           }
         }
       }
     }
   },
-  "defaultProject": "ngx-long-press"
+  "defaultProject": "ngx-ionic-long-press"
 }

@@ -2,7 +2,7 @@
 
 ## About
 
-A container element that adds a hide/show eye to the input ou ion-input inside
+A password hide/show feature for DOM input and ion-input
 
 ![Input Hidden](./doc/input-hidden.png "Input Hidden")
 
@@ -11,7 +11,7 @@ A container element that adds a hide/show eye to the input ou ion-input inside
 ## Instalation
 
 ```bash
- npm i ngx-show-hide-password --save
+ npm i ngx-show-hide-passwd --save
 ```
 
 ## Usage

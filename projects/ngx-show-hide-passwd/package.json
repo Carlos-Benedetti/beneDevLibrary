@@ -1,0 +1,31 @@
+{
+  "name": "ngx-show-hide-passwd",
+  "version": "0.0.1",
+  "description": "A password hide/show feature for DOM input and ion-input",
+  "keywords": [
+    "ionic",
+    "angular",
+    "password",
+    "show/hide",
+    "privacy",
+    "typescript"
+  ],
+  "author": {
+    "name": "Carlos Eduardo Benedetti",
+    "email": "cbjrcadu@gmail.com"
+  },
+  "license": "Apache 2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Carlos-Benedetti/beneDevLibrary"
+  },
+  "peerDependencies": {
+    "@angular/common": "~12.0.1",
+    "@angular/core": "~12.0.1",
+    "@ionic/angular": "^5.5.2",
+    "ionicons": "^5.5.3"
+  },
+  "dependencies": {
+    "tslib": "^2.1.0"
+  }
+}

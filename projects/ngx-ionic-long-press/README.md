@@ -1,4 +1,4 @@
-# ngx-long-press
+# ngx-ionic-long-press
 
 ## About
 
@@ -7,7 +7,7 @@ A `IONIC` gesture feature, for long press events
 ## Instalation
 
 ```bash
- npm i ngx-long-press --save
+ npm i ngx-ionic-long-press --save
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ A `IONIC` gesture feature, for long press events
 > app.module.ts
 
 ```typescript
-import { NgxLongPressModule } from 'ngx-long-press';
+import { NgxLongPressModule } from 'ngx-ionic-long-press';
 
 @NgModule({
   imports: [

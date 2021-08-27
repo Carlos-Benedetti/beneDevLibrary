@@ -5,8 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
-import { NgxLongPressModule } from 'ngx-long-press';
-import { NgxShowHidePasswordModule } from 'ngx-show-hide-password';
+// import { NgxShowHidePasswordModule } from 'ngx-show-hide-password';
 
 
 @NgModule({
@@ -15,8 +14,8 @@ import { NgxShowHidePasswordModule } from 'ngx-show-hide-password';
     FormsModule,
     IonicModule,
     HomePageRoutingModule,
-    NgxLongPressModule,
-    NgxShowHidePasswordModule
+    // NgxLongPressModule,
+    // NgxShowHidePasswordModule
   ],
   declarations: [HomePage]
 })

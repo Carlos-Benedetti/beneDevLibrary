@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NgxShowHidePasswordComponent } from './ngx-show-hide-password.component';
+import { NgxShowHidePasswdComponent } from './ngx-show-hide-passwd.component';
 
 describe('NgxShowHidePasswordComponent', () => {
-  let component: NgxShowHidePasswordComponent;
-  let fixture: ComponentFixture<NgxShowHidePasswordComponent>;
+  let component: NgxShowHidePasswdComponent;
+  let fixture: ComponentFixture<NgxShowHidePasswdComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NgxShowHidePasswordComponent ]
+      declarations: [ NgxShowHidePasswdComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NgxShowHidePasswordComponent);
+    fixture = TestBed.createComponent(NgxShowHidePasswdComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

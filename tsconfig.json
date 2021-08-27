@@ -19,6 +19,10 @@
       "ngx-show-hide-password": [
         "dist/ngx-show-hide-password/ngx-show-hide-password",
         "dist/ngx-show-hide-password"
+      ],
+      "ngx-typed-form-builder": [
+        "dist/ngx-typed-form-builder/ngx-typed-form-builder",
+        "dist/ngx-typed-form-builder"
       ]
     },
     "experimentalDecorators": true,
