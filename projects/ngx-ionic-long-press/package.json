@@ -20,9 +20,9 @@
   },
 
   "peerDependencies": {
-    "@angular/common": "~13.4.0",
-    "@angular/core": "~13.4.0",
-    "@ionic/angular": "^5.5.2"
+    "@angular/common": "~14.3.0",
+    "@angular/core": "~14.3.0",
+    "@ionic/angular": "^6.1.11"
   },
   "dependencies": {
     "tslib": "^2.0.0"
