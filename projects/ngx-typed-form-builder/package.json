@@ -1,6 +1,6 @@
 {
   "name": "ngx-typed-form-builder",
-  "version": "1.0.0",
+  "version": "13.4.0",
   "description": "Adds Interface identification to angular Reactive Forms",
   "keywords": [
     "ionic",
@@ -21,8 +21,8 @@
     "url": "https://github.com/Carlos-Benedetti/beneDevLibrary"
   },
   "peerDependencies": {
-    "@angular/common": "^12.0.5",
-    "@angular/core": "^12.0.5"
+    "@angular/common": "~13.4.0",
+    "@angular/core": "~13.4.0"
   },
   "dependencies": {
     "tslib": "^2.1.0"
