@@ -10,7 +10,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "publish:typed": "npm run build:typed & npm publish dist/ngx-typed-form-builder",
-    "publish:hidden": "npm run build:typed & npm publish dist/ngx-show-hide-passwd"
+    "publish:hidden": "npm run build:hidden & npm publish dist/ngx-show-hide-passwd"
   },
   "private": true,
   "dependencies": {
